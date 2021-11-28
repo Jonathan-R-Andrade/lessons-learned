@@ -1,97 +1,105 @@
 * {
-    padding: 0px;
-    margin : 0px;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
-    padding-top     : 70px;
-    font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(253, 251, 251);
+  padding-top: 70px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 #cabecalho {
-    background-color: blue;
-    width           : 100%;
-    position        : fixed;
-    top             : 0px;
-    height          : 70px;
+  background-color: blue;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 70px;
 }
 
-#cabecalho>h1 {
-    line-height: 70px;
-    text-align : center;
+#cabecalho > h1 {
+  line-height: 70px;
+  text-align: center;
 }
 
 #minha_foto {
-    display      : block;
-    width        : 150px;
-    border       : lawngreen 5px solid;
-    border-radius: 10px;
-    margin       : auto;
-    margin-top   : 10px;
+  display: block;
+  width: 150px;
+  border: lawngreen 5px solid;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10px;
 }
 
 table {
-    margin          : 10px auto 10px auto;
-    border-color    : blue;
-    border-style    : solid;
-    background-color: rgb(200, 200, 200);
+  margin: 10px auto;
+  border-color: blue;
+  border-style: solid;
+  background-color: rgb(200, 200, 200);
 }
 
 td {
-    padding     : 5px 50px 5px 50px;
-    border-color: blue;
-    border-style: solid;
+  padding: 5px 50px;
+  border-color: blue;
+  border-style: solid;
 }
 
 .titulo-tabela {
-    text-align : center;
-    font-weight: bold;
-    font-size  : 20px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
 }
 
-div#licoes {
-    text-align: center;
+#licoes {
+  display: table;
+  width: 90%;
+  margin: auto;
+  text-align: center;
 }
 
 .lado-esquerdo {
-    display         : inline-block;
-    background-color: lawngreen;
-    width           : 45%;
-    border-radius   : 10px;
-    padding         : 5px;
+  display: table-cell;
+  background-color: lawngreen;
+  width: 48%;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.centro {
+  display: table-cell;
 }
 
 .lado-direito {
-    display         : inline-block;
-    background-color: lawngreen;
-    width           : 45%;
-    border-radius   : 10px;
-    padding         : 5px;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: lawngreen;
+  width: 49%;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 h2 {
-    padding: 5px;
+  padding: 5px;
 }
 
 footer {
-    background-color: blue;
-    padding         : 10px;
-    text-align      : center;
-    margin-top      : 10px;
+  background-color: blue;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 footer a {
-    font-size: 20px;
-    color: black;
-    text-decoration    : none;
-    font-weight        : bold;
-    padding-right      : 20px;
-    background-image   : url(imagens/nova-janela.png);
-    background-position: right;
-    background-repeat  : no-repeat;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+  padding-right: 20px;
+  background-image: url("imagens/nova-janela.png");
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 footer a:hover {
-    border-bottom: solid lawngreen 5px;
+  border-bottom: solid lawngreen 5px;
 }
