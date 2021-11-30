@@ -61,7 +61,8 @@ td {
   text-align: center;
 }
 
-.lado-esquerdo , .lado-direito {
+.lado-esquerdo,
+.lado-direito {
   display: table-cell;
   vertical-align: middle;
   background-color: lawngreen;
