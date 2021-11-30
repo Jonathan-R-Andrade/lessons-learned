@@ -61,7 +61,15 @@ td {
   text-align: center;
 }
 
-.lado-esquerdo,
+.lado-esquerdo {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: lawngreen;
+  width: 49%;
+  border-radius: 10px;
+  padding: 20px 15px;
+}
+
 .lado-direito {
   display: table-cell;
   vertical-align: middle;
