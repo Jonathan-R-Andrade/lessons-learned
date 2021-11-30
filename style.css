@@ -20,6 +20,7 @@ body {
 #cabecalho > h1 {
   line-height: 70px;
   text-align: center;
+  text-shadow: 3px 3px 5px rgba(100, 255, 0, 0.7);
 }
 
 #minha_foto {
@@ -36,18 +37,21 @@ table {
   border-color: blue;
   border-style: solid;
   background-color: rgb(200, 200, 200);
+  border-collapse: collapse;
 }
 
 td {
   padding: 5px 50px;
   border-color: blue;
   border-style: solid;
+  border-width: 5px;
 }
 
 .titulo-tabela {
   text-align: center;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 22px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 #licoes {
@@ -57,29 +61,22 @@ td {
   text-align: center;
 }
 
-.lado-esquerdo {
+.lado-esquerdo, .lado-direito {
   display: table-cell;
+  vertical-align: middle;
   background-color: lawngreen;
-  width: 48%;
+  width: 49%;
   border-radius: 10px;
-  padding: 5px;
+  padding: 20px 15px;
 }
 
 .centro {
   display: table-cell;
 }
 
-.lado-direito {
-  display: table-cell;
-  vertical-align: middle;
-  background-color: lawngreen;
-  width: 49%;
-  border-radius: 10px;
+#licoes h2 {
   padding: 5px;
-}
-
-h2 {
-  padding: 5px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
 }
 
 footer {
