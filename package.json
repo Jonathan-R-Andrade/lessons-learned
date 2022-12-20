@@ -11,6 +11,7 @@
   "author": "Jonathan R. Andrade",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "stylelint": "^13.8.0",
     "stylelint-config-standard": "^20.0.0"
   }
