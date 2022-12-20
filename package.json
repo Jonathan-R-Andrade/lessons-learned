@@ -1,6 +1,7 @@
 {
   "name": "lessons-learned",
   "scripts": {
+    "deploy": "gh-pages -d src",
     "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input"
   },
   "homepage": "https://jonathan-r-andrade.github.io/lessons-learned",
